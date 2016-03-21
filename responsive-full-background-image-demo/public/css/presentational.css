@@ -1,0 +1,66 @@
+html, body, .container {
+  height: 100%;
+}
+
+/*Reset*/
+html, body, h1, p, a, div, section, blockquote {
+  margin: 0;
+  padding: 0;
+
+}
+
+/*Basic*/
+body {
+  font: 18px/23px "Cantarell", sans-serif;
+  color: #ffffff;
+}
+
+.container {
+  display: table;
+  width: 100%;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+h1 {
+  color: #efecec;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.button {
+  display: inline-block;
+  padding: 6px 10px;
+  color: #cafaea;
+  border: 1px solid #cafaea;
+  border-radius: 3px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+blockquote {
+  display: block;
+  max-width: 480px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #e1e1e1;
+  font-family: "Kotta One", serif;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.more-content {
+  display: none;
+}
+.more-content.show {
+  display: block;
+}

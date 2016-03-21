@@ -1,0 +1,22 @@
+{
+  "name": "mjx_practices",
+  "version": "1.0.0",
+  "description": "my practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moJiXiang/mjx_practices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moJiXiang/mjx_practices/issues"
+  },
+  "homepage": "https://github.com/moJiXiang/mjx_practices#readme",
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
